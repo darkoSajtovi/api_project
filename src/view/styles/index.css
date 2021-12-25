@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: steelblue;
+}
+
+header nav {
+  text-align: center;
+  line-height: 100px;
+}
+
+header nav input {
+  width: 300px;
+  height: 40px;
+}
+
+header nav button {
+  width: 100px;
+  height: 40px;
+}
+
+#match_history {
+  width: 1250px;
+  margin: 0 auto;
+  min-height: 700px;
+  background-color: #ccc;
+}
+
+#match_history h2 {
+  text-align: center;
+  padding: 10px 0;
+}
+
+#match_history .matches_ {
+  width: 100%;
+  height: 200px;
+  border: 1px solid #333;
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#match_history .box1 {
+  background-color: orange;
+  min-width: 150px;
+  text-align: center;
+}
+
+#match_history .grid_players {
+  background-color: orange;
+  min-width: 350px;
+  min-height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+}
+
+#match_history .grid_players p {
+  vertical-align: middle;
+  padding: 1px 0;
+}
+
+#match_history .grid_players p:hover {
+  background-color: green;
+}
+
+#match_history .grid_players .team_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+#match_history .grid_players .team_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+#match_history .grid_players img {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+#match_history .pobeda {
+  background-color: steelblue;
+}
+
+#match_history .poraz {
+  background-color: darkred;
+}
+
+#match_history .champion_img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+#match_history .items {
+  min-width: 250px;
+}
+
+#match_history .items img {
+  width: 30px;
+  height: 30px;
+}
+
+#match_history .game_details {
+  width: 100%;
+  min-height: 300px;
+  background-color: #333;
+  display: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  color: #fff;
+}
+
+#match_history .game_details .more_team_1 {
+  height: 100%;
+  color: #fff;
+}
+
+#match_history .game_details .more_team_2 {
+  height: 100%;
+}
+
+#match_history .more_match_details_1 div {
+  padding: 0 5px;
+}
+
+#match_history .more_match_details_2 div {
+  padding: 0 5px;
+}
+
+#match_history .more_match_details_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#match_history .more_match_details_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#match_history .more_match_details_1 div, #match_history .more_match_details_2 div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#match_history .more_match_details_1 div img, #match_history .more_match_details_2 div img {
+  width: 20px;
+  height: 20px;
+}
+
+#match_history .more_cs_1 {
+  height: 100%;
+}
+
+#match_history .more_items_1, #match_history .more_items_2 {
+  height: 100%;
+}
+
+#match_history #loaderDiv {
+  display: none;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  background-color: green;
+}
+
+#match_history #gif {
+  width: 300px;
+  height: auto;
+}
+
+#match_history .more_image_div {
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-flow: row !important;
+          flex-flow: row !important;
+}
+/*# sourceMappingURL=index.css.map */

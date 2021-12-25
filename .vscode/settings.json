@@ -1,0 +1,32 @@
+/*
+    promena boje u editoru
+*/
+
+
+{
+    "editor.tokenColorCustomizations": {
+     "variables": "#f00",
+     "functions": "#f0f33b",
+     "comments": "#00ff4c",
+     "keywords": "#2fb3e7",
+     "numbers": "#ee1de3",
+       "types": "#2adf0a",
+   
+         "textMateRules": [
+               {
+                   "scope": "entity.name.tag",
+                   "settings": {
+                       "foreground": "#f00"
+                   }
+               }
+           ]
+     
+   },
+   "editor.semanticTokenColorCustomizations": {
+       "enabled": true, // enable semantic highlighting for all themes
+       "rules": {
+           "*.readonly": { "foreground": "#f00" },
+           "*.declaration": { "foreground": "#f00" }
+       }
+   }
+   }
