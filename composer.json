@@ -1,0 +1,25 @@
+{
+    "name" : "darko/game_stats",
+    "type": "project",
+    "description": "game stats ",
+    "autoload": {
+        "psr-4": { 
+            "ajax\\" : "src/ajax/",
+            "application\\" : "src/application/",
+            "getData\\" : "src/getData/",
+            "core\\" : "src/core/",
+            "config\\" : "src/config/"
+
+          }
+    },
+    "autoload-dev": {
+        "psr-4" : {
+            "tests\\example\\" : "tests/example/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.4"
+    }
+
+    
+}
